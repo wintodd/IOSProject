@@ -1,28 +1,28 @@
 //
-//  Enemies.swift
+//  StrongEnemy.swift
 //  IOSProject
 //
-//  Created by Todd, Winship Merritt on 12/2/20.
+//  Created by Todd, Winship Merritt on 12/17/20.
 //
 
 import SpriteKit
 
-class Enemy: SKSpriteNode {
+class StrongEnemy: SKSpriteNode {
     
     var health: Int
     var damage: Int
-    var enemySpeed = 10
-    var score = 50
+    var enemySpeed = 13
+    var score = 80
     
     init(health: Int, damage: Int) {
         self.health = health
         self.damage = damage
         
-        let texture = SKTexture(imageNamed: "enemy1")
+        let texture = SKTexture(imageNamed: "enemy3")
         super.init(texture: texture, color: .white, size: texture.size())
-        name = "enemy1"
+        name = "enemy3"
         physicsBody = SKPhysicsBody(texture: texture, size: (texture.size()))
-        physicsBody?.categoryBitMask = CollisionType.enemy.rawValue
+        physicsBody?.categoryBitMask = CollisionType.strongEnemy.rawValue
         physicsBody?.collisionBitMask = CollisionType.player.rawValue | CollisionType.playerWeapon.rawValue
         physicsBody?.contactTestBitMask = CollisionType.player.rawValue | CollisionType.playerWeapon.rawValue
         physicsBody?.isDynamic = false

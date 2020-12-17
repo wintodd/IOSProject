@@ -17,7 +17,8 @@
 		FDA793E32577FAD70028555A /* IOSProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA793E22577FAD70028555A /* IOSProjectTests.swift */; };
 		FDA793EE2577FAD70028555A /* IOSProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA793ED2577FAD70028555A /* IOSProjectUITests.swift */; };
 		FDA793FF257811A10028555A /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA793FE257811A10028555A /* Enemy.swift */; };
-		FDD5AB6B25892B0100FDBF42 /* PowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD5AB6A25892B0100FDBF42 /* PowerUp.swift */; };
+		FDCE3747258BDBFD00C4E0DF /* FastEnemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE3746258BDBFD00C4E0DF /* FastEnemy.swift */; };
+		FDCE374C258BDC6E00C4E0DF /* StrongEnemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE374B258BDC6E00C4E0DF /* StrongEnemy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +55,8 @@
 		FDA793ED2577FAD70028555A /* IOSProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSProjectUITests.swift; sourceTree = "<group>"; };
 		FDA793EF2577FAD70028555A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDA793FE257811A10028555A /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
-		FDD5AB6A25892B0100FDBF42 /* PowerUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerUp.swift; sourceTree = "<group>"; };
+		FDCE3746258BDBFD00C4E0DF /* FastEnemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastEnemy.swift; sourceTree = "<group>"; };
+		FDCE374B258BDC6E00C4E0DF /* StrongEnemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongEnemy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,6 @@
 		FDA793C92577FAD60028555A /* IOSProject */ = {
 			isa = PBXGroup;
 			children = (
-				FDD5AB6A25892B0100FDBF42 /* PowerUp.swift */,
 				FDA793CA2577FAD60028555A /* AppDelegate.swift */,
 				FDA793CC2577FAD60028555A /* GameScene.sks */,
 				FDA793CE2577FAD60028555A /* Actions.sks */,
@@ -115,6 +116,8 @@
 				FDA793D72577FAD70028555A /* Assets.xcassets */,
 				FDA793D92577FAD70028555A /* Info.plist */,
 				FDA793FE257811A10028555A /* Enemy.swift */,
+				FDCE3746258BDBFD00C4E0DF /* FastEnemy.swift */,
+				FDCE374B258BDC6E00C4E0DF /* StrongEnemy.swift */,
 			);
 			path = IOSProject;
 			sourceTree = "<group>";
@@ -271,7 +274,8 @@
 				FDA793D12577FAD60028555A /* GameScene.swift in Sources */,
 				FDA793D32577FAD60028555A /* GameViewController.swift in Sources */,
 				FDA793FF257811A10028555A /* Enemy.swift in Sources */,
-				FDD5AB6B25892B0100FDBF42 /* PowerUp.swift in Sources */,
+				FDCE374C258BDC6E00C4E0DF /* StrongEnemy.swift in Sources */,
+				FDCE3747258BDBFD00C4E0DF /* FastEnemy.swift in Sources */,
 				FDA793CB2577FAD60028555A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
